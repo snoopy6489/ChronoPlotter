@@ -124,6 +124,19 @@ Then build with:
 $ qmake
 $ make
 ```
+### Fedora
+Dependencies
+```
+$ sudo dnf install qt5-*
+$ sudo dnf groupinstall "Development Tools" "Development Libraries"
+```
+
+Then build with:
+
+```
+$ qmake-qt5
+$ make
+```
 
 The binary `ChronoPlotter` will then be created. Other Linux distributions may require different dependencies but will follow a similar process.
 
